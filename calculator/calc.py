@@ -19,7 +19,7 @@ class Calculator:
         if type(a) == float or type(b) == float:
             a = Decimal(str(a))
             b = Decimal(str(b))
-            result = a / b
+            result = float(a / b)
             return result
         else:
             return a / b
