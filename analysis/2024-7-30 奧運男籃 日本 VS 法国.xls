@@ -1,0 +1,246 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="//www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 11">
+<link rel=File-List href="export.files/filelist.xml">
+<link rel=Edit-Time-Data href="export.files/editdata.mso">
+<link rel=OLE-Object-Data href="export.files/oledata.mso">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:LastAuthor>User</o:LastAuthor>
+  <o:Created>2012-05-15T06:57:06Z</o:Created>
+  <o:LastSaved>2013-08-29T03:23:00Z</o:LastSaved>
+  <o:Version>11.9999</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:1.0in .75in 1.0in .75in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;}
+tr
+	{mso-height-source:auto;
+	mso-ruby-visibility:none;}
+col
+	{mso-width-source:auto;
+	mso-ruby-visibility:none;}
+br
+	{mso-data-placement:same-cell;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:常规;
+	mso-style-id:0;}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl24
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:12.0pt;
+	font-weight:700;
+	text-align:center;
+	border:.5pt solid windowtext;
+	background:#99CCFF;
+	mso-pattern:auto none;}
+.xl25
+	{mso-style-parent:style0;
+	mso-number-format:"0\.00_ ";}
+.xl26
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:12.0pt;
+	font-weight:700;
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:#99CCFF;
+	mso-pattern:auto none;}
+.xl27
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:12.0pt;
+	font-weight:700;
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:#99CCFF;
+	mso-pattern:auto none;}
+.xl28
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:12.0pt;
+	font-weight:700;
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:#99CCFF;
+	mso-pattern:auto none;}
+ruby
+	{ruby-align:left;}
+rt
+	{color:windowtext;
+	font-size:9.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-char-type:none;
+	display:none;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>球探网</x:Name>
+    <x:WorksheetOptions>
+     <x:DefaultRowHeight>270</x:DefaultRowHeight>
+     <x:Unsynced/>
+     <x:StandardWidth>2304</x:StandardWidth>
+     <x:Selected/>
+     <x:FreezePanes/>
+     <x:FrozenNoSplit/>
+     <x:SplitHorizontal>5</x:SplitHorizontal>
+     <x:TopRowBottomPane>5</x:TopRowBottomPane>
+     <x:ActivePane>2</x:ActivePane>
+     <x:Panes>
+      <x:Pane>
+       <x:Number>3</x:Number>
+      </x:Pane>
+      <x:Pane>
+       <x:Number>2</x:Number>
+       <x:ActiveRow>0</x:ActiveRow>
+       <x:ActiveCol>14</x:ActiveCol>
+      </x:Pane>
+     </x:Panes>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+  <x:WindowHeight>10005</x:WindowHeight>
+  <x:WindowWidth>10005</x:WindowWidth>
+  <x:WindowTopX>120</x:WindowTopX>
+  <x:WindowTopY>135</x:WindowTopY>
+  <x:ProtectStructure>False</x:ProtectStructure>
+  <x:ProtectWindows>False</x:ProtectWindows>
+ </x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+
+<body link=blue vlink=purple>
+
+<table x:str border=0 cellpadding=0 cellspacing=0 width=1080 style='border-collapse:
+ collapse;table-layout:fixed;width:810pt'>
+ <col width=72 span=15 style='width:54pt'>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+  <td height=20 class=xl24 width=72 style='height:15.0pt;width:54pt'><span
+  style='mso-spacerun:yes'>&nbsp;</span></td>
+  <td class=xl24 width=72 style='border-left:none;width:54pt'><span
+  style='mso-spacerun:yes'>&nbsp;</span></td>
+  <td colspan=2 class=xl26 width=216 style='border-right:.5pt solid black;
+  border-left:none;width:162pt'>初盘</td>
+  <td colspan=2 class=xl26 width=216 style='border-right:.5pt solid black;
+  border-left:none;width:162pt'>即时盘</td>
+  <td colspan=2 class=xl26 width=216 style='border-right:.5pt solid black;
+  border-left:none;width:162pt'>最新概率(%)</td>
+  <td colspan=2 class=xl26 width=216 style='border-right:.5pt solid black;
+  border-left:none;width:162pt'>最新凯利指数</td>
+  <td class=xl24 width=72 style='border-left:none;width:54pt'>返还率</td>
+ </tr>
+ <tr height=19 style='mso-height-source:userset;height:14.25pt'>
+  <td height=19 class=xl24 style='height:14.25pt;border-top:none'>序号</td>
+  <td class=xl24 style='border-top:none;border-left:none'>博彩公司</td>
+  <td class=xl24 style='border-top:none;border-left:none'>主</td>
+  <td class=xl24 style='border-top:none;border-left:none'>客</td>
+  
+  <td class=xl24 style='border-top:none;border-left:none'>主</td>
+  <td class=xl24 style='border-top:none;border-left:none'>客</td>
+  
+  <td class=xl24 style='border-top:none;border-left:none'>主</td>
+  <td class=xl24 style='border-top:none;border-left:none'>客</td>
+  
+  <td class=xl24 style='border-top:none;border-left:none'>主</td>
+  <td class=xl24 style='border-top:none;border-left:none'>客</td>
+  
+  <td class=xl24 style='border-top:none;border-left:none'>值</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 style='height:13.5pt' x:str=""></td><td>最大值</td><td class=xl25 align=right x:num="18">18 </td><td class=xl25 style='mso-ignore:colspan' x:num="14.5">14.5</td><td class=xl25  style='mso-ignore:colspan' x:num="14">14</td><td class=xl25 style='mso-ignore:colspan' x:num="15">15</td><td class=xl25  style='mso-ignore:colspan' x:num="15.51">15.51</td><td class=xl25 style='mso-ignore:colspan' x:num="93.57">93.57</td><td class=xl25 style='mso-ignore:colspan' x:num="5.04">5.04</td><td class=xl25 style='mso-ignore:colspan' x:num="9.599999">9.599999</td><td class=xl25 style='mso-ignore:colspan' x:num="98.75">98.75</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 style='height:13.5pt' x:str=""></td><td>最小值</td><td class=xl25 align=right x:num="1.01">1.01 </td><td class=xl25 style='mso-ignore:colspan' x:num="1.01">1.01</td><td class=xl25  style='mso-ignore:colspan' x:num="1.02">1.02</td><td class=xl25 style='mso-ignore:colspan' x:num="1.01">1.01</td><td class=xl25  style='mso-ignore:colspan' x:num="6.43">6.43</td><td class=xl25 style='mso-ignore:colspan' x:num="84.49">84.49</td><td class=xl25 style='mso-ignore:colspan' x:num="0.3672">0.3672</td><td class=xl25 style='mso-ignore:colspan' x:num="0.6464">0.6464</td><td class=xl25 style='mso-ignore:colspan' x:num="85.31">85.31</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 style='height:13.5pt' x:str=""></td><td>平均值</td><td class=xl25 align=right x:num="9.04">9.04 </td><td class=xl25 style='mso-ignore:colspan' x:num="4.24">4.24</td><td class=xl25  style='mso-ignore:colspan' x:num="7.07">7.07</td><td class=xl25 style='mso-ignore:colspan' x:num="4.04">4.04</td><td class=xl25  style='mso-ignore:colspan' x:num="9.71">9.71</td><td class=xl25 style='mso-ignore:colspan' x:num="90.29">90.29</td><td class=xl25 style='mso-ignore:colspan' x:num="2.544455">2.544455</td><td class=xl25 style='mso-ignore:colspan' x:num="2.586483">2.586483</td><td class=xl25 style='mso-ignore:colspan' x:num="94.78">94.78</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>1</td><td class=xl25>Interwetten(马耳他)</td><td class=xl25 align=right x:num="10">10 </td><td class=xl25 align=right x:num="1.02">1.02</td><td class=xl25 align=right x:num="9.5">9.5</td><td class=xl25 align=right x:num="1.05">1.05</td><td class=xl25 align=right x:num="9.95">9.95</td><td class=xl25 align=right x:num="90.05">90.05</td><td class=xl25 align=right x:num="3.42">3.42</td><td class=xl25 align=right x:num="0.6719999">0.6719999</td><td class=xl25 align=right x:num="94.53">94.53</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>2</td><td class=xl25>易胜(安提瓜和巴布达)</td><td class=xl25 align=right x:num="16">16 </td><td class=xl25 align=right x:num="1.01">1.01</td><td class=xl25 align=right x:num="14">14</td><td class=xl25 align=right x:num="1.04">1.04</td><td class=xl25 align=right x:num="6.91">6.91</td><td class=xl25 align=right x:num="93.09">93.09</td><td class=xl25 align=right x:num="5.04">5.04</td><td class=xl25 align=right x:num="0.6655999">0.6655999</td><td class=xl25 align=right x:num="96.74">96.74</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>3</td><td class=xl25>NordicBet(哥斯达黎加)</td><td class=xl25 align=right x:num="14">14 </td><td class=xl25 align=right x:num="1.03">1.03</td><td class=xl25 align=right x:num="10">10</td><td class=xl25 align=right x:num="1.06">1.06</td><td class=xl25 align=right x:num="9.58">9.58</td><td class=xl25 align=right x:num="90.42">90.42</td><td class=xl25 align=right x:num="3.6">3.6</td><td class=xl25 align=right x:num="0.6783999">0.6783999</td><td class=xl25 align=right x:num="95.8">95.8</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>4</td><td class=xl25>Pinnacle Sports(荷兰)</td><td class=xl25 align=right x:num="10.92">10.92 </td><td class=xl25 align=right x:num="1.06">1.06</td><td class=xl25 align=right x:num="10.12">10.12</td><td class=xl25 align=right x:num="1.07">1.07</td><td class=xl25 align=right x:num="9.56">9.56</td><td class=xl25 align=right x:num="90.44">90.44</td><td class=xl25 align=right x:num="3.6432">3.6432</td><td class=xl25 align=right x:num="0.6848">0.6848</td><td class=xl25 align=right x:num="96.75">96.75</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>5</td><td class=xl25>Unibet(马耳他)</td><td class=xl25 align=right x:num="10">10 </td><td class=xl25 align=right x:num="1.02">1.02</td><td class=xl25 align=right x:num="9.5">9.5</td><td class=xl25 align=right x:num="1.06">1.06</td><td class=xl25 align=right x:num="10.04">10.04</td><td class=xl25 align=right x:num="89.96">89.96</td><td class=xl25 align=right x:num="3.42">3.42</td><td class=xl25 align=right x:num="0.6783999">0.6783999</td><td class=xl25 align=right x:num="95.38">95.38</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>6</td><td class=xl25>BoDog(哥斯达黎加)</td><td class=xl25 align=right x:num="15">15 </td><td class=xl25 align=right x:num="1.02">1.02</td><td class=xl25 align=right x:num="9.5">9.5</td><td class=xl25 align=right x:num="1.06">1.06</td><td class=xl25 align=right x:num="10.04">10.04</td><td class=xl25 align=right x:num="89.96">89.96</td><td class=xl25 align=right x:num="3.42">3.42</td><td class=xl25 align=right x:num="0.6783999">0.6783999</td><td class=xl25 align=right x:num="95.38">95.38</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>7</td><td class=xl25>威廉希尔(英国)</td><td class=xl25 align=right x:num="15">15 </td><td class=xl25 align=right x:num="1.02">1.02</td><td class=xl25 align=right x:num="10">10</td><td class=xl25 align=right x:num="1.05">1.05</td><td class=xl25 align=right x:num="9.5">9.5</td><td class=xl25 align=right x:num="90.5">90.5</td><td class=xl25 align=right x:num="3.6">3.6</td><td class=xl25 align=right x:num="0.6719999">0.6719999</td><td class=xl25 align=right x:num="95">95</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>8</td><td class=xl25>Betfair(英国)</td><td class=xl25 align=right x:num="1.05">1.05 </td><td class=xl25 align=right x:num="12">12</td><td class=xl25 align=right x:num="1.06">1.06</td><td class=xl25 align=right x:num="14.5">14.5</td><td class=xl25 align=right x:num="6.81">6.81</td><td class=xl25 align=right x:num="93.19">93.19</td><td class=xl25 align=right x:num="0.3816">0.3816</td><td class=xl25 align=right x:num="9.28">9.28</td><td class=xl25 align=right x:num="98.75">98.75</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>9</td><td class=xl25>Betsson(英国)</td><td class=xl25 align=right x:num="14">14 </td><td class=xl25 align=right x:num="1.03">1.03</td><td class=xl25 align=right x:num="10">10</td><td class=xl25 align=right x:num="1.06">1.06</td><td class=xl25 align=right x:num="9.58">9.58</td><td class=xl25 align=right x:num="90.42">90.42</td><td class=xl25 align=right x:num="3.6">3.6</td><td class=xl25 align=right x:num="0.6783999">0.6783999</td><td class=xl25 align=right x:num="95.8">95.8</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>10</td><td class=xl25>伟得(直布罗陀)</td><td class=xl25 align=right x:num="10">10 </td><td class=xl25 align=right x:num="1.03">1.03</td><td class=xl25 align=right x:num="8">8</td><td class=xl25 align=right x:num="1.05">1.05</td><td class=xl25 align=right x:num="11.6">11.6</td><td class=xl25 align=right x:num="88.4">88.4</td><td class=xl25 align=right x:num="2.88">2.88</td><td class=xl25 align=right x:num="0.6719999">0.6719999</td><td class=xl25 align=right x:num="92.8">92.8</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>11</td><td class=xl25>立B(英国)</td><td class=xl25 align=right x:num="12">12 </td><td class=xl25 align=right x:num="1.03">1.03</td><td class=xl25 align=right x:num="11">11</td><td class=xl25 align=right x:num="1.03">1.03</td><td class=xl25 align=right x:num="8.56">8.56</td><td class=xl25 align=right x:num="91.44">91.44</td><td class=xl25 align=right x:num="3.96">3.96</td><td class=xl25 align=right x:num="0.6592">0.6592</td><td class=xl25 align=right x:num="94.16">94.16</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>12</td><td class=xl25>Bet-at-home.com(奥地利)</td><td class=xl25 align=right x:num="12">12 </td><td class=xl25 align=right x:num="1.01">1.01</td><td class=xl25 align=right x:num="9.5">9.5</td><td class=xl25 align=right x:num="1.03">1.03</td><td class=xl25 align=right x:num="9.78">9.78</td><td class=xl25 align=right x:num="90.22">90.22</td><td class=xl25 align=right x:num="3.42">3.42</td><td class=xl25 align=right x:num="0.6592">0.6592</td><td class=xl25 align=right x:num="92.91">92.91</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>13</td><td class=xl25>Boylesports(爱尔兰)</td><td class=xl25 align=right x:num="11">11 </td><td class=xl25 align=right x:num="1.04">1.04</td><td class=xl25 align=right x:num="9.5">9.5</td><td class=xl25 align=right x:num="1.05">1.05</td><td class=xl25 align=right x:num="9.95">9.95</td><td class=xl25 align=right x:num="90.05">90.05</td><td class=xl25 align=right x:num="3.42">3.42</td><td class=xl25 align=right x:num="0.6719999">0.6719999</td><td class=xl25 align=right x:num="94.53">94.53</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>14</td><td class=xl25>Fonbet(俄罗斯)</td><td class=xl25 align=right x:num="11">11 </td><td class=xl25 align=right x:num="1.04">1.04</td><td class=xl25 align=right x:num="8">8</td><td class=xl25 align=right x:num="1.08">1.08</td><td class=xl25 align=right x:num="11.89">11.89</td><td class=xl25 align=right x:num="88.11">88.11</td><td class=xl25 align=right x:num="2.88">2.88</td><td class=xl25 align=right x:num="0.6912">0.6912</td><td class=xl25 align=right x:num="95.12">95.12</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>15</td><td class=xl25>365(英国)</td><td class=xl25 align=right x:num="16.5">16.5 </td><td class=xl25 align=right x:num="1.03">1.03</td><td class=xl25 align=right x:num="13.5">13.5</td><td class=xl25 align=right x:num="1.04">1.04</td><td class=xl25 align=right x:num="7.15">7.15</td><td class=xl25 align=right x:num="92.85">92.85</td><td class=xl25 align=right x:num="4.86">4.86</td><td class=xl25 align=right x:num="0.6655999">0.6655999</td><td class=xl25 align=right x:num="96.53">96.53</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>16</td><td class=xl25>BetClick(英国)</td><td class=xl25 align=right x:num="1.03">1.03 </td><td class=xl25 align=right x:num="11">11</td><td class=xl25 align=right x:num="1.05">1.05</td><td class=xl25 align=right x:num="9.1">9.1</td><td class=xl25 align=right x:num="10.34">10.34</td><td class=xl25 align=right x:num="89.66">89.66</td><td class=xl25 align=right x:num="0.378">0.378</td><td class=xl25 align=right x:num="5.824">5.824</td><td class=xl25 align=right x:num="94.09">94.09</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>17</td><td class=xl25>Eurobet.it(意大利)</td><td class=xl25 align=right x:num="1.05">1.05 </td><td class=xl25 align=right x:num="9.2">9.2</td><td class=xl25 align=right x:num="1.07">1.07</td><td class=xl25 align=right x:num="8">8</td><td class=xl25 align=right x:num="11.8">11.8</td><td class=xl25 align=right x:num="88.2">88.2</td><td class=xl25 align=right x:num="0.3852">0.3852</td><td class=xl25 align=right x:num="5.12">5.12</td><td class=xl25 align=right x:num="94.4">94.4</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>18</td><td class=xl25>Betsson Sportsbook(英国)</td><td class=xl25 align=right x:num="1.06">1.06 </td><td class=xl25 align=right x:num="10">10</td><td class=xl25 align=right x:num="1.06">1.06</td><td class=xl25 align=right x:num="10">10</td><td class=xl25 align=right x:num="9.58">9.58</td><td class=xl25 align=right x:num="90.42">90.42</td><td class=xl25 align=right x:num="0.3816">0.3816</td><td class=xl25 align=right x:num="6.4">6.4</td><td class=xl25 align=right x:num="95.8">95.8</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>19</td><td class=xl25>Betway(直布罗陀)</td><td class=xl25 align=right x:num="13">13 </td><td class=xl25 align=right x:num="1.02">1.02</td><td class=xl25 align=right x:num="9">9</td><td class=xl25 align=right x:num="1.05">1.05</td><td class=xl25 align=right x:num="10.45">10.45</td><td class=xl25 align=right x:num="89.55">89.55</td><td class=xl25 align=right x:num="3.24">3.24</td><td class=xl25 align=right x:num="0.6719999">0.6719999</td><td class=xl25 align=right x:num="94.05">94.05</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>20</td><td class=xl25>Betsafe(哥斯达黎加)</td><td class=xl25 align=right x:num="14">14 </td><td class=xl25 align=right x:num="1.03">1.03</td><td class=xl25 align=right x:num="10">10</td><td class=xl25 align=right x:num="1.06">1.06</td><td class=xl25 align=right x:num="9.58">9.58</td><td class=xl25 align=right x:num="90.42">90.42</td><td class=xl25 align=right x:num="3.6">3.6</td><td class=xl25 align=right x:num="0.6783999">0.6783999</td><td class=xl25 align=right x:num="95.8">95.8</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>21</td><td class=xl25>BWin(奥地利)</td><td class=xl25 align=right x:num="13">13 </td><td class=xl25 align=right x:num="1.03">1.03</td><td class=xl25 align=right x:num="10">10</td><td class=xl25 align=right x:num="1.05">1.05</td><td class=xl25 align=right x:num="9.5">9.5</td><td class=xl25 align=right x:num="90.5">90.5</td><td class=xl25 align=right x:num="3.6">3.6</td><td class=xl25 align=right x:num="0.6719999">0.6719999</td><td class=xl25 align=right x:num="95">95</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>22</td><td class=xl25>BetBoo (荷属安的列斯)</td><td class=xl25 align=right x:num="16">16 </td><td class=xl25 align=right x:num="1.01">1.01</td><td class=xl25 align=right x:num="13">13</td><td class=xl25 align=right x:num="1.02">1.02</td><td class=xl25 align=right x:num="7.28">7.28</td><td class=xl25 align=right x:num="92.72">92.72</td><td class=xl25 align=right x:num="4.68">4.68</td><td class=xl25 align=right x:num="0.6528">0.6528</td><td class=xl25 align=right x:num="94.64">94.64</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>23</td><td class=xl25>CashPoint(马耳他)</td><td class=xl25 align=right x:num="1.05">1.05 </td><td class=xl25 align=right x:num="9.98">9.98</td><td class=xl25 align=right x:num="1.06">1.06</td><td class=xl25 align=right x:num="9.15">9.15</td><td class=xl25 align=right x:num="10.38">10.38</td><td class=xl25 align=right x:num="89.62">89.62</td><td class=xl25 align=right x:num="0.3816">0.3816</td><td class=xl25 align=right x:num="5.855999">5.855999</td><td class=xl25 align=right x:num="94.98">94.98</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>24</td><td class=xl25>Nike.sk(斯洛伐克)</td><td class=xl25 align=right x:num="1.03">1.03 </td><td class=xl25 align=right x:num="11">11</td><td class=xl25 align=right x:num="1.06">1.06</td><td class=xl25 align=right x:num="9.6">9.6</td><td class=xl25 align=right x:num="9.94">9.94</td><td class=xl25 align=right x:num="90.06">90.06</td><td class=xl25 align=right x:num="0.3816">0.3816</td><td class=xl25 align=right x:num="6.144">6.144</td><td class=xl25 align=right x:num="95.42">95.42</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>25</td><td class=xl25>Dansk Tipstjeneste(丹麦)</td><td class=xl25 align=right x:num="1.01">1.01 </td><td class=xl25 align=right x:num="11">11</td><td class=xl25 align=right x:num="1.05">1.05</td><td class=xl25 align=right x:num="9.5">9.5</td><td class=xl25 align=right x:num="9.95">9.95</td><td class=xl25 align=right x:num="90.05">90.05</td><td class=xl25 align=right x:num="0.378">0.378</td><td class=xl25 align=right x:num="6.08">6.08</td><td class=xl25 align=right x:num="94.53">94.53</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>26</td><td class=xl25>BetClic.fr(法国)</td><td class=xl25 align=right x:num="9.5">9.5 </td><td class=xl25 align=right x:num="1.02">1.02</td><td class=xl25 align=right x:num="10.75">10.75</td><td class=xl25 align=right x:num="1.04">1.04</td><td class=xl25 align=right x:num="8.82">8.82</td><td class=xl25 align=right x:num="91.18">91.18</td><td class=xl25 align=right x:num="3.87">3.87</td><td class=xl25 align=right x:num="0.6655999">0.6655999</td><td class=xl25 align=right x:num="94.81">94.81</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>27</td><td class=xl25>matchbook(安提瓜和巴布达)</td><td class=xl25 align=right x:num="12">12 </td><td class=xl25 align=right x:num="1.04">1.04</td><td class=xl25 align=right x:num="11.5">11.5</td><td class=xl25 align=right x:num="1.05">1.05</td><td class=xl25 align=right x:num="8.37">8.37</td><td class=xl25 align=right x:num="91.63">91.63</td><td class=xl25 align=right x:num="4.14">4.14</td><td class=xl25 align=right x:num="0.6719999">0.6719999</td><td class=xl25 align=right x:num="96.25">96.25</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>28</td><td class=xl25>bwin.fr(法国)</td><td class=xl25 align=right x:num="5.5">5.5 </td><td class=xl25 align=right x:num="1.01">1.01</td><td class=xl25 align=right x:num="5.5">5.5</td><td class=xl25 align=right x:num="1.01">1.01</td><td class=xl25 align=right x:num="15.51">15.51</td><td class=xl25 align=right x:num="84.49">84.49</td><td class=xl25 align=right x:num="1.98">1.98</td><td class=xl25 align=right x:num="0.6464">0.6464</td><td class=xl25 align=right x:num="85.31">85.31</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>29</td><td class=xl25>betonline</td><td class=xl25 align=right x:num="1.05">1.05 </td><td class=xl25 align=right x:num="10">10</td><td class=xl25 align=right x:num="1.04">1.04</td><td class=xl25 align=right x:num="12">12</td><td class=xl25 align=right x:num="7.98">7.98</td><td class=xl25 align=right x:num="92.02">92.02</td><td class=xl25 align=right x:num="0.3744">0.3744</td><td class=xl25 align=right x:num="7.68">7.68</td><td class=xl25 align=right x:num="95.76">95.76</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>30</td><td class=xl25>博天堂(瓦努阿图)</td><td class=xl25 align=right x:num="1.03">1.03 </td><td class=xl25 align=right x:num="12.5">12.5</td><td class=xl25 align=right x:num="1.04">1.04</td><td class=xl25 align=right x:num="11.5">11.5</td><td class=xl25 align=right x:num="8.29">8.29</td><td class=xl25 align=right x:num="91.71">91.71</td><td class=xl25 align=right x:num="0.3744">0.3744</td><td class=xl25 align=right x:num="7.36">7.36</td><td class=xl25 align=right x:num="95.33">95.33</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>31</td><td class=xl25>10B(英国)</td><td class=xl25 align=right x:num="12">12 </td><td class=xl25 align=right x:num="1.03">1.03</td><td class=xl25 align=right x:num="1.05">1.05</td><td class=xl25 align=right x:num="10">10</td><td class=xl25 align=right x:num="9.5">9.5</td><td class=xl25 align=right x:num="90.5">90.5</td><td class=xl25 align=right x:num="0.378">0.378</td><td class=xl25 align=right x:num="6.4">6.4</td><td class=xl25 align=right x:num="95">95</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>32</td><td class=xl25>888Sport(直布罗陀)</td><td class=xl25 align=right x:num="12">12 </td><td class=xl25 align=right x:num="1.03">1.03</td><td class=xl25 align=right x:num="10">10</td><td class=xl25 align=right x:num="1.04">1.04</td><td class=xl25 align=right x:num="9.42">9.42</td><td class=xl25 align=right x:num="90.58">90.58</td><td class=xl25 align=right x:num="3.6">3.6</td><td class=xl25 align=right x:num="0.6655999">0.6655999</td><td class=xl25 align=right x:num="94.2">94.2</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>33</td><td class=xl25>Marathon</td><td class=xl25 align=right x:num="1.04">1.04 </td><td class=xl25 align=right x:num="13">13</td><td class=xl25 align=right x:num="1.06">1.06</td><td class=xl25 align=right x:num="10.5">10.5</td><td class=xl25 align=right x:num="9.17">9.17</td><td class=xl25 align=right x:num="90.83">90.83</td><td class=xl25 align=right x:num="0.3816">0.3816</td><td class=xl25 align=right x:num="6.72">6.72</td><td class=xl25 align=right x:num="96.29">96.29</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>34</td><td class=xl25>Sisal</td><td class=xl25 align=right x:num="1.04">1.04 </td><td class=xl25 align=right x:num="9">9</td><td class=xl25 align=right x:num="1.05">1.05</td><td class=xl25 align=right x:num="8">8</td><td class=xl25 align=right x:num="11.6">11.6</td><td class=xl25 align=right x:num="88.4">88.4</td><td class=xl25 align=right x:num="0.378">0.378</td><td class=xl25 align=right x:num="5.12">5.12</td><td class=xl25 align=right x:num="92.8">92.8</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>35</td><td class=xl25>12B(菲律宾)</td><td class=xl25 align=right x:num="10.09">10.09 </td><td class=xl25 align=right x:num="1.03">1.03</td><td class=xl25 align=right x:num="7.66">7.66</td><td class=xl25 align=right x:num="1.08">1.08</td><td class=xl25 align=right x:num="12.36">12.36</td><td class=xl25 align=right x:num="87.64">87.64</td><td class=xl25 align=right x:num="2.7576">2.7576</td><td class=xl25 align=right x:num="0.6912">0.6912</td><td class=xl25 align=right x:num="94.68">94.68</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>36</td><td class=xl25>Dafabet(菲律宾)</td><td class=xl25 align=right x:num="1.03">1.03 </td><td class=xl25 align=right x:num="12">12</td><td class=xl25 align=right x:num="1.06">1.06</td><td class=xl25 align=right x:num="9.6">9.6</td><td class=xl25 align=right x:num="9.94">9.94</td><td class=xl25 align=right x:num="90.06">90.06</td><td class=xl25 align=right x:num="0.3816">0.3816</td><td class=xl25 align=right x:num="6.144">6.144</td><td class=xl25 align=right x:num="95.42">95.42</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>37</td><td class=xl25>skybet(英国)</td><td class=xl25 align=right x:num="1.03">1.03 </td><td class=xl25 align=right x:num="9">9</td><td class=xl25 align=right x:num="1.04">1.04</td><td class=xl25 align=right x:num="8">8</td><td class=xl25 align=right x:num="11.5">11.5</td><td class=xl25 align=right x:num="88.5">88.5</td><td class=xl25 align=right x:num="0.3744">0.3744</td><td class=xl25 align=right x:num="5.12">5.12</td><td class=xl25 align=right x:num="92">92</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>38</td><td class=xl25>Betcity</td><td class=xl25 align=right x:num="1.05">1.05 </td><td class=xl25 align=right x:num="10">10</td><td class=xl25 align=right x:num="1.06">1.06</td><td class=xl25 align=right x:num="9">9</td><td class=xl25 align=right x:num="10.54">10.54</td><td class=xl25 align=right x:num="89.46">89.46</td><td class=xl25 align=right x:num="0.3816">0.3816</td><td class=xl25 align=right x:num="5.76">5.76</td><td class=xl25 align=right x:num="94.86">94.86</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>39</td><td class=xl25>Marathonbet(库拉索)</td><td class=xl25 align=right x:num="15">15 </td><td class=xl25 align=right x:num="1.03">1.03</td><td class=xl25 align=right x:num="10.5">10.5</td><td class=xl25 align=right x:num="1.06">1.06</td><td class=xl25 align=right x:num="9.17">9.17</td><td class=xl25 align=right x:num="90.83">90.83</td><td class=xl25 align=right x:num="3.78">3.78</td><td class=xl25 align=right x:num="0.6783999">0.6783999</td><td class=xl25 align=right x:num="96.29">96.29</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>40</td><td class=xl25>Bovada</td><td class=xl25 align=right x:num="1.03">1.03 </td><td class=xl25 align=right x:num="13">13</td><td class=xl25 align=right x:num="1.06">1.06</td><td class=xl25 align=right x:num="9.5">9.5</td><td class=xl25 align=right x:num="10.04">10.04</td><td class=xl25 align=right x:num="89.96">89.96</td><td class=xl25 align=right x:num="0.3816">0.3816</td><td class=xl25 align=right x:num="6.08">6.08</td><td class=xl25 align=right x:num="95.38">95.38</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>41</td><td class=xl25>Sportium</td><td class=xl25 align=right x:num="13">13 </td><td class=xl25 align=right x:num="1.03">1.03</td><td class=xl25 align=right x:num="12">12</td><td class=xl25 align=right x:num="1.04">1.04</td><td class=xl25 align=right x:num="7.98">7.98</td><td class=xl25 align=right x:num="92.02">92.02</td><td class=xl25 align=right x:num="4.32">4.32</td><td class=xl25 align=right x:num="0.6655999">0.6655999</td><td class=xl25 align=right x:num="95.76">95.76</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>42</td><td class=xl25>Tipsport.sk(斯洛伐克)</td><td class=xl25 align=right x:num="9.2">9.2 </td><td class=xl25 align=right x:num="1.01">1.01</td><td class=xl25 align=right x:num="6.75">6.75</td><td class=xl25 align=right x:num="1.07">1.07</td><td class=xl25 align=right x:num="13.68">13.68</td><td class=xl25 align=right x:num="86.32">86.32</td><td class=xl25 align=right x:num="2.43">2.43</td><td class=xl25 align=right x:num="0.6848">0.6848</td><td class=xl25 align=right x:num="92.34">92.34</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>43</td><td class=xl25>France Pari(法国)</td><td class=xl25 align=right x:num="12">12 </td><td class=xl25 align=right x:num="1.01">1.01</td><td class=xl25 align=right x:num="10.5">10.5</td><td class=xl25 align=right x:num="1.02">1.02</td><td class=xl25 align=right x:num="8.85">8.85</td><td class=xl25 align=right x:num="91.15">91.15</td><td class=xl25 align=right x:num="3.78">3.78</td><td class=xl25 align=right x:num="0.6528">0.6528</td><td class=xl25 align=right x:num="92.93">92.93</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>44</td><td class=xl25>bwin.es(西班牙)</td><td class=xl25 align=right x:num="13">13 </td><td class=xl25 align=right x:num="1.03">1.03</td><td class=xl25 align=right x:num="11.5">11.5</td><td class=xl25 align=right x:num="1.04">1.04</td><td class=xl25 align=right x:num="8.29">8.29</td><td class=xl25 align=right x:num="91.71">91.71</td><td class=xl25 align=right x:num="4.14">4.14</td><td class=xl25 align=right x:num="0.6655999">0.6655999</td><td class=xl25 align=right x:num="95.33">95.33</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>45</td><td class=xl25>Tipsport.cz(捷克)</td><td class=xl25 align=right x:num="9.2">9.2 </td><td class=xl25 align=right x:num="1.01">1.01</td><td class=xl25 align=right x:num="6.75">6.75</td><td class=xl25 align=right x:num="1.07">1.07</td><td class=xl25 align=right x:num="13.68">13.68</td><td class=xl25 align=right x:num="86.32">86.32</td><td class=xl25 align=right x:num="2.43">2.43</td><td class=xl25 align=right x:num="0.6848">0.6848</td><td class=xl25 align=right x:num="92.34">92.34</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>46</td><td class=xl25>iFortuna.cz(捷克)</td><td class=xl25 align=right x:num="11">11 </td><td class=xl25 align=right x:num="1.02">1.02</td><td class=xl25 align=right x:num="9.6">9.6</td><td class=xl25 align=right x:num="1.06">1.06</td><td class=xl25 align=right x:num="9.94">9.94</td><td class=xl25 align=right x:num="90.06">90.06</td><td class=xl25 align=right x:num="3.456">3.456</td><td class=xl25 align=right x:num="0.6783999">0.6783999</td><td class=xl25 align=right x:num="95.42">95.42</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>47</td><td class=xl25>Stoiximan</td><td class=xl25 align=right x:num="1.03">1.03 </td><td class=xl25 align=right x:num="14.5">14.5</td><td class=xl25 align=right x:num="1.03">1.03</td><td class=xl25 align=right x:num="15">15</td><td class=xl25 align=right x:num="6.43">6.43</td><td class=xl25 align=right x:num="93.57">93.57</td><td class=xl25 align=right x:num="0.3708">0.3708</td><td class=xl25 align=right x:num="9.599999">9.599999</td><td class=xl25 align=right x:num="96.45">96.45</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>48</td><td class=xl25>1xBet</td><td class=xl25 align=right x:num="18">18 </td><td class=xl25 align=right x:num="1.03">1.03</td><td class=xl25 align=right x:num="11">11</td><td class=xl25 align=right x:num="1.06">1.06</td><td class=xl25 align=right x:num="8.79">8.79</td><td class=xl25 align=right x:num="91.21">91.21</td><td class=xl25 align=right x:num="3.96">3.96</td><td class=xl25 align=right x:num="0.6783999">0.6783999</td><td class=xl25 align=right x:num="96.69">96.69</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>49</td><td class=xl25>PlanetWin365</td><td class=xl25 align=right x:num="1.01">1.01 </td><td class=xl25 align=right x:num="14">14</td><td class=xl25 align=right x:num="1.02">1.02</td><td class=xl25 align=right x:num="11">11</td><td class=xl25 align=right x:num="8.49">8.49</td><td class=xl25 align=right x:num="91.51">91.51</td><td class=xl25 align=right x:num="0.3672">0.3672</td><td class=xl25 align=right x:num="7.04">7.04</td><td class=xl25 align=right x:num="93.39">93.39</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>50</td><td class=xl25>Vulkanbet</td><td class=xl25 align=right x:num="9.76">9.76 </td><td class=xl25 align=right x:num="1.01">1.01</td><td class=xl25 align=right x:num="10.47">10.47</td><td class=xl25 align=right x:num="1.06">1.06</td><td class=xl25 align=right x:num="9.19">9.19</td><td class=xl25 align=right x:num="90.81">90.81</td><td class=xl25 align=right x:num="3.7692">3.7692</td><td class=xl25 align=right x:num="0.6783999">0.6783999</td><td class=xl25 align=right x:num="96.22">96.22</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>51</td><td class=xl25>reloadbet</td><td class=xl25 align=right x:num="14.4">14.4 </td><td class=xl25 align=right x:num="1.02">1.02</td><td class=xl25 align=right x:num="10.2">10.2</td><td class=xl25 align=right x:num="1.05">1.05</td><td class=xl25 align=right x:num="9.33">9.33</td><td class=xl25 align=right x:num="90.67">90.67</td><td class=xl25 align=right x:num="3.672">3.672</td><td class=xl25 align=right x:num="0.6719999">0.6719999</td><td class=xl25 align=right x:num="95.17">95.17</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>52</td><td class=xl25>lsbet</td><td class=xl25 align=right x:num="14.4">14.4 </td><td class=xl25 align=right x:num="1.02">1.02</td><td class=xl25 align=right x:num="10.2">10.2</td><td class=xl25 align=right x:num="1.05">1.05</td><td class=xl25 align=right x:num="9.33">9.33</td><td class=xl25 align=right x:num="90.67">90.67</td><td class=xl25 align=right x:num="3.672">3.672</td><td class=xl25 align=right x:num="0.6719999">0.6719999</td><td class=xl25 align=right x:num="95.17">95.17</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>53</td><td class=xl25>bumbet</td><td class=xl25 align=right x:num="15">15 </td><td class=xl25 align=right x:num="1.02">1.02</td><td class=xl25 align=right x:num="9.5">9.5</td><td class=xl25 align=right x:num="1.06">1.06</td><td class=xl25 align=right x:num="10.04">10.04</td><td class=xl25 align=right x:num="89.96">89.96</td><td class=xl25 align=right x:num="3.42">3.42</td><td class=xl25 align=right x:num="0.6783999">0.6783999</td><td class=xl25 align=right x:num="95.38">95.38</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>54</td><td class=xl25>Betway.it</td><td class=xl25 align=right x:num="13">13 </td><td class=xl25 align=right x:num="1.02">1.02</td><td class=xl25 align=right x:num="9">9</td><td class=xl25 align=right x:num="1.05">1.05</td><td class=xl25 align=right x:num="10.45">10.45</td><td class=xl25 align=right x:num="89.55">89.55</td><td class=xl25 align=right x:num="3.24">3.24</td><td class=xl25 align=right x:num="0.6719999">0.6719999</td><td class=xl25 align=right x:num="94.05">94.05</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>55</td><td class=xl25>betboom.ru</td><td class=xl25 align=right x:num="16">16 </td><td class=xl25 align=right x:num="1.01">1.01</td><td class=xl25 align=right x:num="13">13</td><td class=xl25 align=right x:num="1.02">1.02</td><td class=xl25 align=right x:num="7.28">7.28</td><td class=xl25 align=right x:num="92.72">92.72</td><td class=xl25 align=right x:num="4.68">4.68</td><td class=xl25 align=right x:num="0.6528">0.6528</td><td class=xl25 align=right x:num="94.64">94.64</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>56</td><td class=xl25>Betway.es</td><td class=xl25 align=right x:num="13">13 </td><td class=xl25 align=right x:num="1.02">1.02</td><td class=xl25 align=right x:num="9">9</td><td class=xl25 align=right x:num="1.05">1.05</td><td class=xl25 align=right x:num="10.45">10.45</td><td class=xl25 align=right x:num="89.55">89.55</td><td class=xl25 align=right x:num="3.24">3.24</td><td class=xl25 align=right x:num="0.6719999">0.6719999</td><td class=xl25 align=right x:num="94.05">94.05</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>57</td><td class=xl25>Marathonbet.ru</td><td class=xl25 align=right x:num="15">15 </td><td class=xl25 align=right x:num="1.03">1.03</td><td class=xl25 align=right x:num="10.5">10.5</td><td class=xl25 align=right x:num="1.06">1.06</td><td class=xl25 align=right x:num="9.17">9.17</td><td class=xl25 align=right x:num="90.83">90.83</td><td class=xl25 align=right x:num="3.78">3.78</td><td class=xl25 align=right x:num="0.6783999">0.6783999</td><td class=xl25 align=right x:num="96.29">96.29</td></tr><tr height=18 style='mso-height-source:userset;height:13.5pt'><td height=18 align=right style='height:13.5pt' x:num>58</td><td class=xl25>Winamax.com</td><td class=xl25 align=right x:num="1.02">1.02 </td><td class=xl25 align=right x:num="13.5">13.5</td><td class=xl25 align=right x:num="1.02">1.02</td><td class=xl25 align=right x:num="9.5">9.5</td><td class=xl25 align=right x:num="9.7">9.7</td><td class=xl25 align=right x:num="90.3">90.3</td><td class=xl25 align=right x:num="0.3672">0.3672</td><td class=xl25 align=right x:num="6.08">6.08</td><td class=xl25 align=right x:num="92.15">92.15</td></tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=72 style='width:54pt'></td>
+  <td width=72 style='width:54pt'></td>
+  
+  <td width=72 style='width:54pt'></td>
+  <td width=72 style='width:54pt'></td>
+  
+  <td width=72 style='width:54pt'></td>
+  <td width=72 style='width:54pt'></td>
+  
+  <td width=72 style='width:54pt'></td>
+  <td width=72 style='width:54pt'></td>
+  
+  <td width=72 style='width:54pt'></td>
+  <td width=72 style='width:54pt'></td>
+  
+  <td width=72 style='width:54pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>
+

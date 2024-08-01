@@ -1,0 +1,688 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 15">
+<link id=Main-File rel=Main-File href="../工时统计汇总.xls">
+<link rel=File-List href=filelist.xml>
+<link rel=Stylesheet href=stylesheet.css>
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:1.0in .75in 1.0in .75in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;}
+ruby
+	{ruby-align:left;}
+rt
+	{color:windowtext;
+	font-size:9.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-char-type:none;
+	display:none;}
+-->
+</style>
+<![if !supportTabStrip]><script language="JavaScript">
+<!--
+function fnUpdateTabs()
+ {
+  if (parent.window.g_iIEVer>=4) {
+   if (parent.document.readyState=="complete"
+    && parent.frames['frTabs'].document.readyState=="complete")
+   parent.fnSetActiveSheet(0);
+  else
+   window.setTimeout("fnUpdateTabs();",150);
+ }
+}
+
+if (window.name!="frSheet")
+ window.location.replace("../工时统计汇总.xls");
+else
+ fnUpdateTabs();
+//-->
+</script>
+<![endif]>
+</head>
+
+<body link="#0563C1" vlink="#954F72">
+
+<table border=0 cellpadding=0 cellspacing=0 width=1963 style='border-collapse:
+ collapse;table-layout:fixed;width:1477pt'>
+ <col width=47 style='mso-width-source:userset;mso-width-alt:1504;width:35pt'>
+ <col width=51 style='mso-width-source:userset;mso-width-alt:1632;width:38pt'>
+ <col width=58 style='mso-width-source:userset;mso-width-alt:1856;width:44pt'>
+ <col width=183 style='mso-width-source:userset;mso-width-alt:5856;width:137pt'>
+ <col width=288 style='mso-width-source:userset;mso-width-alt:9216;width:216pt'>
+ <col width=40 style='mso-width-source:userset;mso-width-alt:1280;width:30pt'>
+ <col width=82 style='mso-width-source:userset;mso-width-alt:2624;width:62pt'>
+ <col width=68 style='mso-width-source:userset;mso-width-alt:2176;width:51pt'>
+ <col width=82 span=2 style='mso-width-source:userset;mso-width-alt:2624;
+ width:62pt'>
+ <col width=91 style='mso-width-source:userset;mso-width-alt:2912;width:68pt'>
+ <col width=113 style='mso-width-source:userset;mso-width-alt:3616;width:85pt'>
+ <col width=98 style='mso-width-source:userset;mso-width-alt:3136;width:74pt'>
+ <col width=54 span=2 style='mso-width-source:userset;mso-width-alt:1728;
+ width:41pt'>
+ <col width=98 style='mso-width-source:userset;mso-width-alt:3136;width:74pt'>
+ <col width=54 span=3 style='mso-width-source:userset;mso-width-alt:1728;
+ width:41pt'>
+ <col width=68 style='mso-width-source:userset;mso-width-alt:2176;width:51pt'>
+ <col width=40 style='mso-width-source:userset;mso-width-alt:1280;width:30pt'>
+ <col width=68 span=3 style='mso-width-source:userset;mso-width-alt:2176;
+ width:51pt'>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl65 width=47 style='height:13.5pt;width:35pt'>工号</td>
+  <td class=xl65 width=51 style='width:38pt'>测试</td>
+  <td class=xl65 width=58 style='width:44pt'>组</td>
+  <td class=xl65 width=183 style='width:137pt'>时间范围</td>
+  <td class=xl65 width=288 style='width:216pt'>参与项目</td>
+  <td class=xl65 width=40 style='width:30pt'>业务</td>
+  <td class=xl65 width=82 style='width:62pt'>测试总工时</td>
+  <td class=xl65 width=68 style='width:51pt'>用例总数</td>
+  <td class=xl65 width=82 style='width:62pt'>工作量得分</td>
+  <td class=xl65 width=82 style='width:62pt'>开发总工时</td>
+  <td class=xl65 width=91 style='width:68pt'>测试总工时1</td>
+  <td class=xl65 width=113 style='width:85pt'>开发测试工时比</td>
+  <td class=xl65 width=98 style='width:74pt'>工作效率得分</td>
+  <td class=xl65 width=54 style='width:41pt'>漏测数</td>
+  <td class=xl65 width=54 style='width:41pt'>事故数</td>
+  <td class=xl65 width=98 style='width:74pt'>工作质量得分</td>
+  <td class=xl65 width=54 style='width:41pt'>行为分</td>
+  <td class=xl65 width=54 style='width:41pt'>正职分</td>
+  <td class=xl65 width=54 style='width:41pt'>组长分</td>
+  <td class=xl65 width=68 style='width:51pt'>公式总分</td>
+  <td class=xl65 width=40 style='width:30pt'>排名</td>
+  <td class=xl65 width=68 style='width:51pt'>行为排名</td>
+  <td class=xl65 width=68 style='width:51pt'>加分原因</td>
+  <td class=xl65 width=68 style='width:51pt'>入职时间</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl67 width=47 style='height:13.5pt;width:35pt'>W2302</td>
+  <td class=xl67 width=51 style='width:38pt'>陈月莲</td>
+  <td class=xl67 width=58 style='width:44pt'>测试2组</td>
+  <td class=xl67 width=183 style='width:137pt'>2024-01,2024-02,2024-03</td>
+  <td class=xl67 width=288 style='width:216pt'>游戏商城,虎牙app,虎牙电商,游戏联运,酥音派对</td>
+  <td class=xl67 width=40 style='width:30pt'>业务</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>14.5</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>86</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>27.1</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>91.08</td>
+  <td class=xl67 align=right width=91 style='width:68pt'>14.5</td>
+  <td class=xl67 align=right width=113 style='width:85pt'>6.3</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>99</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>100</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>54.4</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>15</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>69.4</td>
+  <td class=xl67 align=right width=40 style='width:30pt'>27</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>27</td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+ </tr>
+ <tr height=32 style='height:24.0pt'>
+  <td height=32 class=xl67 width=47 style='height:24.0pt;width:35pt'>W1433</td>
+  <td class=xl67 width=51 style='width:38pt'>巫炳权</td>
+  <td class=xl67 width=58 style='width:44pt'>测试2组</td>
+  <td class=xl67 width=183 style='width:137pt'>2024-01,2024-02,2024-03</td>
+  <td class=xl67 width=288 style='width:216pt'>虎牙app,营收项目,小程序成品与平台需求规划,虎牙web,游戏商城</td>
+  <td class=xl67 width=40 style='width:30pt'>业务</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>31.8</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>47</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>56.6</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>192.57</td>
+  <td class=xl67 align=right width=91 style='width:68pt'>31.8</td>
+  <td class=xl67 align=right width=113 style='width:85pt'>6.1</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>99</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>100</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>60.6</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>15</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>75.6</td>
+  <td class=xl67 align=right width=40 style='width:30pt'>6</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>6</td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+ </tr>
+ <tr height=32 style='height:24.0pt'>
+  <td height=32 class=xl67 width=47 style='height:24.0pt;width:35pt'>W0001</td>
+  <td class=xl67 width=51 style='width:38pt'>金冬福</td>
+  <td class=xl67 width=58 style='width:44pt'>测试2组</td>
+  <td class=xl67 width=183 style='width:137pt'>2024-01,2024-02,2024-03</td>
+  <td class=xl67 width=288 style='width:216pt'>广告营销系统,游戏商城,虎牙电商,虎牙app,营收项目,虎牙web,游戏联运</td>
+  <td class=xl67 width=40 style='width:30pt'>业务</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>40.1</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>0</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>70.1</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>236.21</td>
+  <td class=xl67 align=right width=91 style='width:68pt'>40.1</td>
+  <td class=xl67 align=right width=113 style='width:85pt'>5.9</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>98.2</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>100</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>63.3</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>15</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>78.3</td>
+  <td class=xl67 align=right width=40 style='width:30pt'>2</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>2</td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl67 width=47 style='height:13.5pt;width:35pt'>W2213</td>
+  <td class=xl67 width=51 style='width:38pt'>刘小倩</td>
+  <td class=xl67 width=58 style='width:44pt'>测试2组</td>
+  <td class=xl67 width=183 style='width:137pt'>2024-01,2024-02,2024-03</td>
+  <td class=xl67 width=288 style='width:216pt'>虎牙app,营收项目</td>
+  <td class=xl67 width=40 style='width:30pt'>业务</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>30.6</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>56</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>54.7</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>170.1</td>
+  <td class=xl67 align=right width=91 style='width:68pt'>30.6</td>
+  <td class=xl67 align=right width=113 style='width:85pt'>5.6</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>95.8</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>100</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>59.5</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>15</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>74.5</td>
+  <td class=xl67 align=right width=40 style='width:30pt'>9</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>9</td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl67 width=47 style='height:13.5pt;width:35pt'>W2256</td>
+  <td class=xl67 width=51 style='width:38pt'>宋金妹</td>
+  <td class=xl67 width=58 style='width:44pt'>测试2组</td>
+  <td class=xl67 width=183 style='width:137pt'>2024-01,2024-02,2024-03</td>
+  <td class=xl67 width=288 style='width:216pt'>虎牙app,虎牙web,TOB项目</td>
+  <td class=xl67 width=40 style='width:30pt'>业务</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>25.21</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>53</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>45.2</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>139.38</td>
+  <td class=xl67 align=right width=91 style='width:68pt'>25.21</td>
+  <td class=xl67 align=right width=113 style='width:85pt'>5.5</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>95</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>100</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>57.3</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>15</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>72.3</td>
+  <td class=xl67 align=right width=40 style='width:30pt'>15</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>15</td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl67 width=47 style='height:13.5pt;width:35pt'>W2303</td>
+  <td class=xl67 width=51 style='width:38pt'>伍梓欣</td>
+  <td class=xl67 width=58 style='width:44pt'>测试2组</td>
+  <td class=xl67 width=183 style='width:137pt'>2024-01,2024-02,2024-03</td>
+  <td class=xl67 width=288 style='width:216pt'>虎牙web,虎牙app,营收项目,酥音派对</td>
+  <td class=xl67 width=40 style='width:30pt'>业务</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>9.2</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>124</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>18.6</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>49.83</td>
+  <td class=xl67 align=right width=91 style='width:68pt'>9.2</td>
+  <td class=xl67 align=right width=113 style='width:85pt'>5.4</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>94.2</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>100</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>51.5</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>15</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>66.5</td>
+  <td class=xl67 align=right width=40 style='width:30pt'>31</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>31</td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+ </tr>
+ <tr height=32 style='height:24.0pt'>
+  <td height=32 class=xl67 width=47 style='height:24.0pt;width:35pt'>W1371</td>
+  <td class=xl67 width=51 style='width:38pt'>叶芷菁</td>
+  <td class=xl67 width=58 style='width:44pt'>测试2组</td>
+  <td class=xl67 width=183 style='width:137pt'>2024-01,2024-02,2024-03</td>
+  <td class=xl67 width=288 style='width:216pt'>虎牙app,广告营销系统,虎牙web,游戏联运,运营平台业务支撑组</td>
+  <td class=xl67 width=40 style='width:30pt'>业务</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>29.6</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>1</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>51.8</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>157.67</td>
+  <td class=xl67 align=right width=91 style='width:68pt'>29.6</td>
+  <td class=xl67 align=right width=113 style='width:85pt'>5.3</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>93.4</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>100</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>58.3</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>15</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>73.3</td>
+  <td class=xl67 align=right width=40 style='width:30pt'>11</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>11</td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl67 width=47 style='height:13.5pt;width:35pt'>W1406</td>
+  <td class=xl67 width=51 style='width:38pt'>符斯凯</td>
+  <td class=xl67 width=58 style='width:44pt'>测试2组</td>
+  <td class=xl67 width=183 style='width:137pt'>2024-01,2024-02,2024-03</td>
+  <td class=xl67 width=288 style='width:216pt'>营收项目,虎牙app,游戏商城,小鹿陪玩,酥音派对</td>
+  <td class=xl67 width=40 style='width:30pt'>业务</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>24.86</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>39</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>44.3</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>119.58</td>
+  <td class=xl67 align=right width=91 style='width:68pt'>24.86</td>
+  <td class=xl67 align=right width=113 style='width:85pt'>4.8</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>89.4</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>100</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>55.7</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>15</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>70.7</td>
+  <td class=xl67 align=right width=40 style='width:30pt'>22</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>22</td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+ </tr>
+ <tr height=32 style='height:24.0pt'>
+  <td height=32 class=xl67 width=47 style='height:24.0pt;width:35pt'>W2212</td>
+  <td class=xl67 width=51 style='width:38pt'>林靖麒</td>
+  <td class=xl67 width=58 style='width:44pt'>测试2组</td>
+  <td class=xl67 width=183 style='width:137pt'>2024-01,2024-02,2024-03</td>
+  <td class=xl67 width=288 style='width:216pt'>游戏联运,虎牙app,游戏商城,虎牙数据决策部需求管理,虎牙web</td>
+  <td class=xl67 width=40 style='width:30pt'>业务</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>31.42</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>52</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>56</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>147.83</td>
+  <td class=xl67 align=right width=91 style='width:68pt'>31.42</td>
+  <td class=xl67 align=right width=113 style='width:85pt'>4.7</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>88.6</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>100</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>58</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>15</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>73</td>
+  <td class=xl67 align=right width=40 style='width:30pt'>13</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>13</td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl67 width=47 style='height:13.5pt;width:35pt'>W2334</td>
+  <td class=xl67 width=51 style='width:38pt'>何路娇</td>
+  <td class=xl67 width=58 style='width:44pt'>测试2组</td>
+  <td class=xl67 width=183 style='width:137pt'>2024-01,2024-02,2024-03</td>
+  <td class=xl67 width=288 style='width:216pt'>虎牙app,虎牙TV,虎牙iPad,虎牙web</td>
+  <td class=xl67 width=40 style='width:30pt'>业务</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>24.01</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>52</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>43.1</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>113.73</td>
+  <td class=xl67 align=right width=91 style='width:68pt'>24.01</td>
+  <td class=xl67 align=right width=113 style='width:85pt'>4.7</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>88.6</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>100</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>55.3</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>15</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>70.3</td>
+  <td class=xl67 align=right width=40 style='width:30pt'>23</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>23</td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl67 width=47 style='height:13.5pt;width:35pt'>W1841</td>
+  <td class=xl67 width=51 style='width:38pt'>王艳花</td>
+  <td class=xl67 width=58 style='width:44pt'>测试2组</td>
+  <td class=xl67 width=183 style='width:137pt'>2024-01,2024-02,2024-03</td>
+  <td class=xl67 width=288 style='width:216pt'>虎牙app,游戏联运,游戏商城</td>
+  <td class=xl67 width=40 style='width:30pt'>业务</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>38.7</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>59</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>68.9</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>177.54</td>
+  <td class=xl67 align=right width=91 style='width:68pt'>38.7</td>
+  <td class=xl67 align=right width=113 style='width:85pt'>4.6</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>87.8</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>100</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>60.5</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>15</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>75.5</td>
+  <td class=xl67 align=right width=40 style='width:30pt'>7</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>7</td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl67 width=47 style='height:13.5pt;width:35pt'>W1859</td>
+  <td class=xl67 width=51 style='width:38pt'>程明智</td>
+  <td class=xl67 width=58 style='width:44pt'>测试2组</td>
+  <td class=xl67 width=183 style='width:137pt'>2024-01,2024-02,2024-03</td>
+  <td class=xl67 width=288 style='width:216pt'>虎牙web,虎牙app</td>
+  <td class=xl67 width=40 style='width:30pt'>业务</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>31.01</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>28</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>54.8</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>141.81</td>
+  <td class=xl67 align=right width=91 style='width:68pt'>31.01</td>
+  <td class=xl67 align=right width=113 style='width:85pt'>4.6</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>87.8</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>100</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>57.5</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>15</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>72.5</td>
+  <td class=xl67 align=right width=40 style='width:30pt'>14</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>14</td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl67 width=47 style='height:13.5pt;width:35pt'>W2214</td>
+  <td class=xl67 width=51 style='width:38pt'>高嫄</td>
+  <td class=xl67 width=58 style='width:44pt'>测试2组</td>
+  <td class=xl67 width=183 style='width:137pt'>2024-01,2024-02,2024-03</td>
+  <td class=xl67 width=288 style='width:216pt'>虎牙app,虎牙web,游戏联运,游戏商城,营收项目</td>
+  <td class=xl67 width=40 style='width:30pt'>业务</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>19.26</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>230</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>38.3</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>89.06</td>
+  <td class=xl67 align=right width=91 style='width:68pt'>19.26</td>
+  <td class=xl67 align=right width=113 style='width:85pt'>4.6</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>87.8</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>100</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>54.1</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>15</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>69.1</td>
+  <td class=xl67 align=right width=40 style='width:30pt'>28</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>28</td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl67 width=47 style='height:13.5pt;width:35pt'>W2331</td>
+  <td class=xl67 width=51 style='width:38pt'>钟水娟</td>
+  <td class=xl67 width=58 style='width:44pt'>测试2组</td>
+  <td class=xl67 width=183 style='width:137pt'>2024-01,2024-02,2024-03</td>
+  <td class=xl67 width=288 style='width:216pt'>虎牙iPad,虎牙app,虎牙TV,虎牙web,游戏联运</td>
+  <td class=xl67 width=40 style='width:30pt'>业务</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>32.72</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>64</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>58.5</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>148.56</td>
+  <td class=xl67 align=right width=91 style='width:68pt'>32.72</td>
+  <td class=xl67 align=right width=113 style='width:85pt'>4.5</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>87</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>100</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>58.1</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>15</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>73.1</td>
+  <td class=xl67 align=right width=40 style='width:30pt'>12</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>12</td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+ </tr>
+ <tr height=32 style='height:24.0pt'>
+  <td height=32 class=xl67 width=47 style='height:24.0pt;width:35pt'>W1568</td>
+  <td class=xl67 width=51 style='width:38pt'>张佳奇</td>
+  <td class=xl67 width=58 style='width:44pt'>测试2组</td>
+  <td class=xl67 width=183 style='width:137pt'>2024-01,2024-02,2024-03</td>
+  <td class=xl67 width=288 style='width:216pt'>虎牙app,营收项目,游戏商城,酥音派对,虎牙内容安全管理平台,小程序成品与平台需求规划</td>
+  <td class=xl67 width=40 style='width:30pt'>业务</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>23.9</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>111</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>44</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>107.13</td>
+  <td class=xl67 align=right width=91 style='width:68pt'>23.9</td>
+  <td class=xl67 align=right width=113 style='width:85pt'>4.5</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>87</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>100</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>55.1</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>15</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>70.1</td>
+  <td class=xl67 align=right width=40 style='width:30pt'>24</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>24</td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl67 width=47 style='height:13.5pt;width:35pt'>W1289</td>
+  <td class=xl67 width=51 style='width:38pt'>冀佳琦</td>
+  <td class=xl67 width=58 style='width:44pt'>测试2组</td>
+  <td class=xl67 width=183 style='width:137pt'>2024-01,2024-02,2024-03</td>
+  <td class=xl67 width=288 style='width:216pt'>广告营销系统,虎牙app,虎牙web</td>
+  <td class=xl67 width=40 style='width:30pt'>业务</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>28.71</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>84</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>51.9</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>127.23</td>
+  <td class=xl67 align=right width=91 style='width:68pt'>28.71</td>
+  <td class=xl67 align=right width=113 style='width:85pt'>4.4</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>86.2</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>100</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>56.5</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>15</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>71.5</td>
+  <td class=xl67 align=right width=40 style='width:30pt'>20</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>20</td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl67 width=47 style='height:13.5pt;width:35pt'>W1360</td>
+  <td class=xl67 width=51 style='width:38pt'>梁宇翔</td>
+  <td class=xl67 width=58 style='width:44pt'>测试2组</td>
+  <td class=xl67 width=183 style='width:137pt'>2024-01,2024-02,2024-03</td>
+  <td class=xl67 width=288 style='width:216pt'>游戏联运,虎牙app,虎牙web,游戏商城</td>
+  <td class=xl67 width=40 style='width:30pt'>业务</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>31.3</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>0</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>54.8</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>131.03</td>
+  <td class=xl67 align=right width=91 style='width:68pt'>31.3</td>
+  <td class=xl67 align=right width=113 style='width:85pt'>4.2</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>84.6</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>100</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>56.7</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>15</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>71.7</td>
+  <td class=xl67 align=right width=40 style='width:30pt'>17</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>17</td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl67 width=47 style='height:13.5pt;width:35pt'>W1211</td>
+  <td class=xl67 width=51 style='width:38pt'>罗云华</td>
+  <td class=xl67 width=58 style='width:44pt'>测试2组</td>
+  <td class=xl67 width=183 style='width:137pt'>2024-01,2024-02,2024-03</td>
+  <td class=xl67 width=288 style='width:216pt'>虎牙app,虎牙web</td>
+  <td class=xl67 width=40 style='width:30pt'>业务</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>30.61</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>59</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>54.7</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>126.87</td>
+  <td class=xl67 align=right width=91 style='width:68pt'>30.61</td>
+  <td class=xl67 align=right width=113 style='width:85pt'>4.1</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>83.8</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>100</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>56.5</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>15</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>71.5</td>
+  <td class=xl67 align=right width=40 style='width:30pt'>19</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>19</td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl67 width=47 style='height:13.5pt;width:35pt'>W0208</td>
+  <td class=xl67 width=51 style='width:38pt'>刘柏原</td>
+  <td class=xl67 width=58 style='width:44pt'>测试2组</td>
+  <td class=xl67 width=183 style='width:137pt'>2024-01,2024-02,2024-03</td>
+  <td class=xl67 width=288 style='width:216pt'>虎牙app,营收项目,广告营销系统,虎牙web</td>
+  <td class=xl67 width=40 style='width:30pt'>业务</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>32.39</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>68</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>58</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>130.43</td>
+  <td class=xl67 align=right width=91 style='width:68pt'>32.39</td>
+  <td class=xl67 align=right width=113 style='width:85pt'>4</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>83</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>100</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>57</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>15</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>72</td>
+  <td class=xl67 align=right width=40 style='width:30pt'>16</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>16</td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl67 width=47 style='height:13.5pt;width:35pt'>W1475</td>
+  <td class=xl67 width=51 style='width:38pt'>牟先镱</td>
+  <td class=xl67 width=58 style='width:44pt'>测试2组</td>
+  <td class=xl67 width=183 style='width:137pt'>2024-01,2024-02,2024-03</td>
+  <td class=xl67 width=288 style='width:216pt'>虎牙app,广告营销系统,虎牙web,游戏联运</td>
+  <td class=xl67 width=40 style='width:30pt'>业务</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>26.16</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>59</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>47</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>104.31</td>
+  <td class=xl67 align=right width=91 style='width:68pt'>26.16</td>
+  <td class=xl67 align=right width=113 style='width:85pt'>4</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>83</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>100</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>54.7</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>15</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>69.7</td>
+  <td class=xl67 align=right width=40 style='width:30pt'>26</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>26</td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl67 width=47 style='height:13.5pt;width:35pt'>W1392</td>
+  <td class=xl67 width=51 style='width:38pt'>梁均强</td>
+  <td class=xl67 width=58 style='width:44pt'>测试2组</td>
+  <td class=xl67 width=183 style='width:137pt'>2024-01,2024-02,2024-03</td>
+  <td class=xl67 width=288 style='width:216pt'>虎牙app,营收项目</td>
+  <td class=xl67 width=40 style='width:30pt'>业务</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>19.7</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>104</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>36.6</td>
+  <td class=xl67 align=right width=82 style='width:62pt'>72.64</td>
+  <td class=xl67 align=right width=91 style='width:68pt'>19.7</td>
+  <td class=xl67 align=right width=113 style='width:85pt'>3.7</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>80.6</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=98 style='width:74pt'>100</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>51.9</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>15</td>
+  <td class=xl67 align=right width=54 style='width:41pt'>0</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>66.9</td>
+  <td class=xl67 align=right width=40 style='width:30pt'>30</td>
+  <td class=xl67 align=right width=68 style='width:51pt'>30</td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+  <td class=xl66 width=68 style='width:51pt'></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=47 style='width:35pt'></td>
+  <td width=51 style='width:38pt'></td>
+  <td width=58 style='width:44pt'></td>
+  <td width=183 style='width:137pt'></td>
+  <td width=288 style='width:216pt'></td>
+  <td width=40 style='width:30pt'></td>
+  <td width=82 style='width:62pt'></td>
+  <td width=68 style='width:51pt'></td>
+  <td width=82 style='width:62pt'></td>
+  <td width=82 style='width:62pt'></td>
+  <td width=91 style='width:68pt'></td>
+  <td width=113 style='width:85pt'></td>
+  <td width=98 style='width:74pt'></td>
+  <td width=54 style='width:41pt'></td>
+  <td width=54 style='width:41pt'></td>
+  <td width=98 style='width:74pt'></td>
+  <td width=54 style='width:41pt'></td>
+  <td width=54 style='width:41pt'></td>
+  <td width=54 style='width:41pt'></td>
+  <td width=68 style='width:51pt'></td>
+  <td width=40 style='width:30pt'></td>
+  <td width=68 style='width:51pt'></td>
+  <td width=68 style='width:51pt'></td>
+  <td width=68 style='width:51pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>
